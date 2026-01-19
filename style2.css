@@ -1,0 +1,76 @@
+
+
+.giris{
+    width: 600px;;
+    height: 450px;
+    padding: 30px;
+    text-align: center;
+    background:url(indir\ \(3\).jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    overflow: hidden;
+}
+
+
+
+.giris h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 40px;
+    font-family: arial;
+}
+
+
+.giris input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align:center;
+    box-sizing:border-box;
+    border: none;
+}
+
+
+
+.txt{
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+
+
+.giris-btn{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    background: #a87227;
+    color: #f3f3f3;
+    cursor: pointer;
+    width: 120px;
+}
+
+
+.giris-btn:hover{
+   transform: scale(0.96);
+   background: #f3f3f3;
+   color: #a87227;
+}
+
+
+.giris a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8;
+    display: block;
+}
+
+
+
+.giris a:hover{
+    color: #b63802;
+}

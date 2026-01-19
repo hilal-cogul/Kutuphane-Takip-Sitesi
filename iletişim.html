@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iletişim formu</title>
+    
+    <style>
+
+    .iletisim_formu {
+    font-family: sans-serif;
+}
+
+.iletisim_formu h2{
+    margin-top: 20px;
+}
+
+.iletisim_formu form{
+    width: 600px;
+}
+
+
+.iletisim_formu input {
+    outline: 0;
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 21px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+}
+
+
+.iletisim_formu input:focus {
+    border-bottom: 2px solid skyblue;
+}
+
+
+.iletisim_formu textarea {
+    outline: 0;
+    resize: none;
+    width: 100%; 
+    margin-bottom: 9px;
+    height: 61px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+}
+
+
+.iletisim_formu textarea:focus{
+    border-bottom: 2px solid rgb(10,200,255);
+}
+
+.iletisim_formu button{
+    height: 40px;
+    font-size: 20px;
+    background: dodgerblue;
+    width: 100%;
+    border: 2px solid dodgerblue;
+    color: white;
+}
+
+
+.iletisim_formu button:hover{
+    background:  rgb(10,200,255);
+    border: 2px solid dodgerblue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="iletisim_formu" align="center">
+        <form action="" method="post">
+            <h2>İletişim formu</h2>
+            <p>
+                aşağıdaki formu doldurarak bize ulaşabilirsiniz
+            </p>
+                <input type="text" placeholder="Adınız ve soyadınız:" required=""> <br>
+                <input type="email" placeholder="E-posta adresiniz:" required=""> <br>
+                <input type="text" placeholder="Konu:" required=""> <br>
+                <textarea name="" placeholder="Mesajınız:"></textarea> <br>
+                <button>GÖNDER</button>
+        </form>
+    </div>
+</body>
+</html>
