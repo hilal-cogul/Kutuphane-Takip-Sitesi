@@ -73,7 +73,7 @@
 
 
 <?php
-$b = mysqli_connect('localhost','hilalcog_userr', 'Hh1Çç8351/', 'hilalcog_urun');
+$b = mysqli_connect('localhost','root', ' ', 'personel');
 
 if (isset($_GET['K_EKLE'])) {
     $kullaniciadi =$_GET['kullaniciadi'];
@@ -113,5 +113,6 @@ mysqli_close($b);
 ?>
     </body>
 </html>
+
 
 
