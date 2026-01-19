@@ -79,7 +79,7 @@
     </form>
 
     <?php
-$b = mysqli_connect('localhost', 'hilalcog_userr', 'Hh1Çç8351/', 'hilalcog_urun');
+$b = mysqli_connect('localhost', 'root', ' ', 'personel;
 
 if (isset($_GET['EKLE'])) {
     $urunadi =$_GET['ad'];
@@ -127,5 +127,6 @@ mysqli_close($b);
 
     </body>
 </html>
+
 
 
